@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* background-color: #E3EFF5; */
+   
+
+}
+
+html{
+    font-family: 'Roboto';
+    font-size: 18px;
+}
+
+li, a, button{
+    
+    font-family: 'Roboto', sans-serif;
+
+    font-weight: 500;
+    font-size: 1em;
+    text-decoration: none;
+    letter-spacing: 2px;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+    background-color: #00629A;
+}
+.logo{
+    background-color: #E3EFF5;
+    border-radius: 50%;
+}
+.logo_container{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: all  0.4s ease 0s;
+
+}
+
+.logo_container:hover{
+    transform: scale(1.1);
+
+}
+.logo_container h1{
+    font-size: 1.2em;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-left: 0.5em;
+    color: #E3EFF5;
+    transition: all  0.4s ease 0s;
+
+}
+.logo_container h1:hover{
+
+    color: #FF6816;
+   
+
+}
+.nav_links{
+    list-style: none;
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0 16px;
+    transition: all 0.4s ease 0s;
+
+}
+.nav_links li:hover{
+ 
+    transform: scale(1.1);
+
+}
+
+.nav_links li a{
+    color: #E3EFF5;
+    transition: all 0.4s ease 0s;
+
+}
+.nav_links li a:hover{
+    color: #FF6816;   
+    transform: scale(1.1);
+
+}
+
+.ctc{
+    background: none;
+    border-radius: 0.2em;
+    padding: 0.2em 0.8em;
+    border: solid 2px;
+    color: #E3EFF5;
+    transition: all 0.4s ease 0s;
+}
+
+
+.ctc:hover{
+    cursor: pointer;
+    border-color: #FF6816;
+    color: #FF6816;
+    transform: scale(1.1);
+}
+
+
+/* banner */
+
+.hero_img{
+    background: linear-gradient(rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.72)),  url(./assets/img/banner.avif);
+   
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+        
+}
+
+.hero_container{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #E3EFF5;   
+}
+
+.hero_content h1{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+
+}
+
+.hero_content h2{
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.hero_content p{
+    font-size: 1.1rem;
+    max-width: 60%;
+
+}
+
+.hero_button{
+    margin-top: 1.5rem;
+    background: none;
+    border-radius: 0.2em;
+    padding: 0.2em 0.8em;
+    border: solid 2px;
+    color: #E3EFF5;
+    transition: all  0.4s ease 0s;
+
+}
+
+.hero_button:hover{
+    cursor: pointer;
+    border-color: #FF6816;
+    color: #FF6816;
+    transform: scale(1.1);
+
+
+}
+
+
+/* cards */
+.offers{
+    text-align: center;
+    padding: 0.5em;
+    /* background-color: #E3EFF5; */
+    color: #00629A;
+}
+.cards{
+    display: flex;
+    background-color: white ;
+    padding: 16px 0;
+
+}
+
+.cards_container{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+}
+
+.card{
+    text-align: justify;
+    width: 25%;
+    overflow: hidden;
+    margin: 0 1em;
+    border-radius: 0.2em;
+    /* background-color: #00629A; */
+    transition: 0.4s;
+    /* background-color: #E3EFF5; */
+
+}
+.card:hover{
+    box-shadow:  6px 6px 20px black;
+    cursor: pointer;
+    transform: translatey(1%);
+
+}
+.card img{
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+    object-position: center;
+}
+.card h3{
+    text-align: center;
+    color: black;
+    padding-bottom: 8px;
+}
+.card p{
+    color: rgb(52, 52, 52);
+}
+
+.card_content{
+    padding: 16px;
+} 
+
+/* cardv2 */
+.cardv2{
+    width: 25%;
+
+}
+
+.cardv2 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+
+}
+
+.cardv2 figure img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+
+}
+.cardv2 figure .card_capa{
+    position: absolute;
+    top:0;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    background: rgba(52, 52, 52, 0.6);
+    opacity: 0;
+    transition: 0.4s;
+    
+
+}
+.cardv2 figure:hover > .card_capa{
+    opacity: 1;
+    visibility: visible;
+}
+
+.cardv2 figure:hover > .h3{
+    transform: translate(2%);
+}
