@@ -87,7 +87,7 @@ header{
 
 }
 
-.ctc{
+.but{
     background: none;
     border-radius: 0.2em;
     padding: 0.2em 0.8em;
@@ -97,7 +97,7 @@ header{
 }
 
 
-.ctc:hover{
+.but:hover{
     cursor: pointer;
     border-color: #FF6816;
     color: #FF6816;
@@ -142,29 +142,10 @@ header{
 .hero_content p{
     font-size: 1.1rem;
     max-width: 60%;
-
-}
-
-.hero_button{
-    margin-top: 1.5rem;
-    background: none;
-    border-radius: 0.2em;
-    padding: 0.2em 0.8em;
-    border: solid 2px;
-    color: #E3EFF5;
-    transition: all  0.4s ease 0s;
-
-}
-
-.hero_button:hover{
-    cursor: pointer;
-    border-color: #FF6816;
-    color: #FF6816;
-    transform: scale(1.1);
+    margin-bottom: 1.5rem;
 
 
 }
-
 
 /* cards */
 .offers{
