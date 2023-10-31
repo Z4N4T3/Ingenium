@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 html{
     font-size: 18px;
+
+}
+
+body{
+    color: #E3EFF5;
+
 }
 /*Nav bar*/
 #mainNavy {
