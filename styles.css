@@ -63,9 +63,9 @@
 
 }
 .card:hover{
-    box-shadow:  6px 6px 20px black;
+    box-shadow:  2px 2px 5px black;
     cursor: pointer;
-    transform: translatey(1%);
+    transform: translatey(-1%);
 
 }
 .card img{

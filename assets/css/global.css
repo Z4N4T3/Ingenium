@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+html{
+    font-size: 18px;
+}
+/*Nav bar*/
+#mainNavy {
+    background-color: #00629C;
+    color: #E3EFF5;
+}
+
+.navbar-brand{
+    color: #E3EFF5;
+    transition: all 0.4s ease 0s;
+}
+
+.navbar-brand:hover{
+    color: #F8904B ;
+
+}
+
+
+.navbar-brand img{
+    background-color: #E3EFF5;
+    border-radius: 50%;
+}
+
+
+#mainNavy .nav-link{
+    color: #E3EFF5 ;
+}
+#mainNavy .nav-link:hover{
+    color: #F8904B ;
+}
+
+
+
+.btn-primary {
+    --bs-btn-color: #E3EFF5;
+    --bs-btn-bg: #ff7c24;
+    --bs-btn-border-color: #ff7c24;
+    --bs-btn-hover-color: #E3EFF5;
+    --bs-btn-hover-bg: #ff6600;
+    --bs-btn-hover-border-color: #ff6600;
+    --bs-btn-focus-shadow-rgb: 13,110,253;
+    --bs-btn-active-color: #E3EFF5;
+    --bs-btn-active-bg: #F8904B;
+    --bs-btn-active-border-color: #F8904B;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fd6500;
+    --bs-btn-disabled-border-color: #F8904B;
+    --bs-gradient: none;
+}
+
+
+.btn-outline-primary {
+    --bs-btn-color: #F8904B;
+    --bs-btn-border-color: #F8904B;
+    --bs-btn-hover-color: #E3EFF5;
+    --bs-btn-hover-bg: #F8904B;
+    --bs-btn-hover-border-color: #F8904B;
+    --bs-btn-focus-shadow-rgb: 13,110,253;
+    --bs-btn-active-color: #E3EFF5;
+    --bs-btn-active-bg: #F8904B;
+    --bs-btn-active-border-color: #F8904B;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #F8904B;
+    --bs-btn-disabled-border-color: #F8904B;
+    --bs-gradient: none;
+}
