@@ -1,13 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    /* background-color: #E3EFF5; */
-   
-
+html{
+    font-size: 18px;
 }
-
 /*Nav bar*/
 #mainNavy {
     background-color: #00629C;
