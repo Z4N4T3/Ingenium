@@ -14,12 +14,12 @@ html{
 
 
 .navbar-brand{
-    color: #E3EFF5;
     transition: all 0.4s ease 0s;
+    color: #F8904B ;
 }
 
 .navbar-brand:hover{
-    color: #F8904B ;
+    color: #E3EFF5;
 
 }
 
