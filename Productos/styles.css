@@ -1,13 +1,21 @@
 
+body{
+    background-color: #002135;
+}
+main{
+    background-color: #00273f;
+    
+
+}
 .display-2, .display-5{
     font-weight: 400;
-    color: #00629C;
+    color: #E3EFF5;
 }
 
 
 
 .subtit{
-    border-top: 1px solid #00629C;
+    border-top: 1px solid #7c8b92;
     margin: 4rem 0 2rem;
     font-weight: 400;
 }
@@ -17,8 +25,16 @@
 
 }
 .card:hover{
-    box-shadow:  2px 2px 5px black;
+    border: 1px solid #7c8b92;
     cursor: pointer;
 
     transform: translatey(-1%);
 }
+
+
+.card{
+    background-color: #002135;
+    color: #E3EFF5;
+}
+
+

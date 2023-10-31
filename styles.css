@@ -1,9 +1,10 @@
 
 /* banner */
-
+body{
+    background-color: #002135;
+}
 .hero_img{
-    background: linear-gradient(rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.72)),  url(./assets/img/banner.avif);
-   
+    background: linear-gradient(rgba(0, 33, 53, 0.82), rgba(0, 33, 53, 0.82)),  url(./assets/img/banner.avif);
     width: 100%;
     height: 100vh;
     background-position: center;
@@ -33,60 +34,11 @@
 
 /* cards */
 .offers{
-    text-align: center;
-    padding: 0.5em;
-    /* background-color: #E3EFF5; */
-    color: #00629A;
+    color: #E3EFF5;
 }
-.cards{
-    display: flex;
-    background-color: white ;
-    padding: 16px 0;
-
+.Ofrecemos{
+    background-color: #00273f;
 }
-
-.cards_container{
-    margin: 0 auto;
-    width: 80%;
-    display: flex;
-}
-
-.card{
-    text-align: justify;
-    width: 25%;
-    overflow: hidden;
-    margin: 0 1em;
-    border-radius: 0.2em;
-    /* background-color: #00629A; */
-    transition: 0.4s;
-    /* background-color: #E3EFF5; */
-
-}
-.card:hover{
-    box-shadow:  2px 2px 5px black;
-    cursor: pointer;
-    transform: translatey(-1%);
-
-}
-.card img{
-    width: 100%;
-    height: 210px;
-    object-fit: cover;
-    object-position: center;
-}
-.card h3{
-    text-align: center;
-    color: black;
-    padding-bottom: 8px;
-}
-.card p{
-    color: rgb(52, 52, 52);
-}
-
-.card_content{
-    padding: 16px;
-} 
-
 
 
 /* media querie */

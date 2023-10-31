@@ -4,9 +4,14 @@ html{
 }
 /*Nav bar*/
 #mainNavy {
-    background-color: #00629C;
+    background-color: #002135;
     color: #E3EFF5;
+    border-top: 1px solid #7c8b92;
+    border-bottom: 1px solid #7c8b92;
+
 }
+
+
 
 .navbar-brand{
     color: #E3EFF5;
@@ -28,7 +33,7 @@ html{
 #mainNavy .nav-link{
     color: #E3EFF5 ;
 }
-#mainNavy .nav-link:hover{
+#mainNavy .nav-link:hover,#mainNavy .nav-link>:active {
     color: #F8904B ;
 }
 
